@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>The Pirate Bay</title>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/img/Logo 2.png" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body class="align-center" id="home">
+<header class="cabezal">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <a href="index.html"><img src="assets/img/Logo 2.png" alt="Logo The Pirate Bay" class="logo-img" width="100" height="100" ></a>
+            </div>
+            <div class="col-8">
+                <nav class="menu-principal">
+                    <ul class="menu">
+                        <li class="active"><a href="index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                        <li><a href="alternativas.html">Alternativas</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section>
+        <div>
+            <a><img src="assets/img/Logo 2.png" alt="Logo ThePirateBay" width="567" height="567"></a>
+        </div>
+        <form action="/search.php" name="q">
+            <div>
+                <input name="q" type="search" title="Buscador" placeholder="Buscador"  style="width: 20em; padding: 4px;">
+            </div>
+            <div>
+                <span class="form-box"><label title="Todo" for="todo" accesskey="a"><input name="todo" id="todo" type="checkbox" onclick="setAll();" checked="">Todo</label></span>
+                <span class="form-box"><label title="Audio" for="audio" accesskey="q"><input name="audio" id="audio" type="checkbox" onclick="rmAll();">Audio</label></span>
+                <span class="form-box"><label title="Video" for="video" accesskey="w"><input name="video" id="video" type="checkbox" onclick="rmAll();">Video</label></span>
+                <span class="form-box"><label title="Aplicaciones" for="aplicaciones" accesskey="e"><input name="aplicaciones" id="aplicaciones" type="checkbox" onclick="rmAll();">Aplicaciones</label></span>
+                <span class="form-box"><label title="Juegos" for="juegos" accesskey="r"><input name="juegos" id="juegos" type="checkbox" onclick="rmAll();">Juegos</label></span>
+                <span class="form-box"><label title="Herramientas" for="herramientas" accesskey="t"><input name="herramientas" id="herramientas" type="checkbox" onclick="rmAll();">Herramientas</label></span>
+                <span class="form-box"><label title="Otros" for="otros" accesskey="y"><input name="otros" id="otros" type="checkbox" onclick="rmAll();">Otros</label></span>
+            </div>
+
+        </form>
+    </section>
+</main>
+<footer>
+</footer>
+
+
+</body>
+
+
+</html>
